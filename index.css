@@ -1,0 +1,424 @@
+/*---------------navigation-bar-------------------*/ 
+header{
+    height:100px;
+}
+#navbar{
+ top:0;
+ width: 100%;
+ background: antiquewhite;
+ position: fixed;
+ z-index:20;
+}
+.navbar-nav{
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.nav-link{
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+.nav-link:hover{
+    font-weight: bold;
+    font-size:18px;
+    text-decoration: underline;
+}
+/*---------------homepage-------------------*/
+#form{
+        height: 250px;
+    }
+.caption{
+        display: flex;
+        margin-top:2%; 
+        margin-left: 22%;
+        margin-right: 10%;
+    }
+.cap-img-l{
+        margin-right:1%;
+    }
+.cap-head h1{
+        font-family: 'Cinzel', serif;
+        background-color:antiquewhite;
+        font-size:30px    !important;
+    }
+.cap-img-r{
+        margin-left:1%;
+    }
+/*---------------email-id------------------*/ 
+.info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+        margin-top: 50px;
+        
+}
+.info input[type="text"]{
+        width: 300px;
+        padding: 5px;
+        
+    } 
+.info input[type="submit"]{
+        margin-top: 1%;
+        width: 150px;
+        padding: 5px;
+        
+}
+/*-------------------features----------------------*/
+.features{
+    margin-top: 100px;
+    height: 550px;
+}
+.f1{
+    display: flex;
+    height: 130px;
+    margin-left: 130px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+.i1{
+    margin-left:0px;
+}
+.i2{
+    margin-left:15px;
+}
+.i3{
+    margin-left:30px;
+}
+.f1:hover{
+    cursor: pointer;
+    margin-left:180px;
+}
+.descript {
+ padding-left: 20px;
+ padding-right:20px;
+ margin-left:50px;
+ margin-bottom:20px;
+ border-bottom: 2px solid black;
+ border-right:2px solid black;
+}
+.descript h4{
+    font-family: 'Cinzel', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 38px;
+}
+.descript p{
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.color{
+  color:goldenrod;
+}
+/*--------------division bar-------------------*/ 
+#divider1 {
+        display: flex;
+        margin-top:3%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+.cap-img-l{
+        margin-right:1%;
+    }
+.cap-head h3{
+        font-family: 'Cinzel', serif;
+        background-color:antiquewhite;
+        font-size: 27px;
+    }
+.cap-img-r{
+        margin-left:1%;
+    }
+/*---------------video & corousel-------------------*/ 
+#collection{
+        height: 1300px;
+    }
+.video{
+    height:500px;
+    margin-top:20px;
+    margin-left:330px;
+}
+.video h3{
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-right: 300px;
+        text-align: center;
+        width:650px;
+        font-family: 'Cinzel', serif;
+        background-color:antiquewhite;
+        font-size: 27px;    
+}
+/*--------------price information------------------*/
+#flex{
+    margin-top: 5%;
+    height: 600px;
+}
+.tag h3{
+        margin:auto;
+        margin-bottom: 30px;
+        width:600px;
+        font-family: 'Cinzel', serif;
+        background-color:antiquewhite;
+        font-size: 27px;   
+}
+.priceinfo{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;  
+}
+.tenor, .bass,  .valve{
+    box-shadow:10px 10px 10px;
+    width:350px;
+    height:400px;
+    margin-left: 1%;
+    border: 1px solid black;
+    transition: all .2s ease-in-out;
+}
+.tenor:hover, .bass:hover,  .valve:hover{ 
+    width:380px;
+    height:430px;
+}
+.tenor h2, .bass h2,  .valve h2{
+    padding-top: 10px;
+    font-family: 'Cinzel', serif;
+    font-size:25px !important;
+    text-align: center;
+    background-color:lightgray;
+    height: 50px;
+    font-weight: 900;
+}
+.tenor h3, .bass h3,  .valve h3{
+    text-align: center;
+}
+.tenor p, .bass p,  .valve p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.tenor button,.bass button,  .valve button{
+    margin-top: 10%  !important;
+    margin-left: 37% !important;
+	outline:none !important;
+	width: 110px !important;
+	height: 50px !important;   
+    background-color:antiquewhite !important;
+	color:black !important;
+	font-size:20px !important;
+	border:1px solid black !important;
+}
+/*---------------footer----------------*/
+#footer {
+        background-color: #DDDDDD;
+        padding: 20px;
+        width: 100%;
+        margin: 0 auto;
+        font-family: 'Josefin Sans', sans-serif;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  list-style-type: none;
+  }
+li { 
+    padding: 0 15px; 
+}
+ul a{
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+  }
+span {
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px;
+      color: grey;
+      }
+/*----------------------------------------media queries-------------------------*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    
+    /*-------------------resposive navbar---------------------------*/
+#navbar{
+     top:0;
+     width: 100%;
+     background: antiquewhite;
+     position: fixed;
+     z-index:30;
+    }
+    /*-------------------resposive caption---------------------------*/
+.caption{
+        display: flex;
+        justify-content: center;
+        width: 100%;   
+    }
+.cap-img-l{
+        width:40px;
+        margin-left:330px;    
+    }
+.cap-head h1{
+      width:440px;
+      margin-left: 20px;   
+      font-size: 20px !important;
+    }
+.cap-img-r{
+        width:40px;
+        margin-left: 0px;  
+    }
+    /*-------------------resposive form---------------------------*/
+.info{
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        margin-top: 50px;
+        margin-left:430px; 
+}
+    /*-------------------resposive features---------------------------*/
+.features{
+    margin-top: 60px;
+    height: 350px;
+}
+.f1{
+    display: flex;
+    height: 80px;
+    width: 700px;
+    margin-left: 40px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    }
+.f1:hover{
+    cursor: pointer;
+    margin-left:200px;
+}
+.descript {
+ padding-left: 20px;
+ padding-right:20px;
+ margin-left:50px;
+ margin-bottom:15px;
+ border-bottom: 2px solid black;
+ border-right:2px solid black;
+}
+.descript h4{
+    font-family: 'Cinzel', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+.descript p{
+    font-size: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.color{
+  color:goldenrod;
+}
+/*-------------------resposive divider1--------------------------*/
+     
+#divider1 {
+        display: flex;
+        width: 80%;
+        margin-top:3%;
+        margin-left:-50px;
+    }
+#divider1 .cap-img-l{
+        margin-left:160px;
+    }
+#divider1 .cap-head h3{
+        width: 500px;
+        margin-left: 20px;   
+        font-size: 20px !important;
+    }
+#divider1 .cap-img-r{
+        margin-left:0px;
+    }
+    /*-------------------resposive video & corousel-------------------------*/
+#collection{
+        height: 900px;
+    }
+.video{
+    height:500px;
+    margin-top:20px;
+    margin-left:0px;
+}
+ iframe{
+        width:800px !important;
+    }
+.video h3{
+        margin-top: 50px;
+        margin-left:150px !important ;
+        text-align: center;
+        width:550px;
+        font-family: 'Cinzel', serif;
+        background-color:antiquewhite;
+        font-size: 20px !important;       
+}   
+.carousel-inner{
+        width: 810px !important;
+        height: 400px !important;
+    }
+    /*------------------ resposive flexbox---------------------------*/
+    
+#flex{
+    margin-top:5%;
+    height: 1300px;
+}
+.tag h3{
+        margin-left:210px;
+        margin-bottom: 30px;
+        width:400px;
+        font-family: 'Cinzel', serif;
+        background-color:antiquewhite;
+        font-size: 20px !important;
+}
+.priceinfo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 400px;
+    align-items:center;
+    }
+.tenor, .bass,  .valve{
+    box-shadow:10px 10px 10px;
+    width:300px;
+    height:350px;
+    margin-left: 1%;
+    border: 1px solid black;
+    margin-top: 20px;
+    transition: all .2s ease-in-out;
+}
+.tenor h2, .bass h2,  .valve h2{
+    padding-top: 10px;
+    font-family: 'Cinzel', serif;
+    font-size:20px !important;
+    text-align: center;
+    background-color:lightgray;
+    height: 50px;
+    font-weight: 900;
+}
+.tenor h3, .bass h3,  .valve h3{
+    text-align: center;
+}
+.tenor p, .bass p,  .valve p{
+    margin-top: 20px;
+    font-size: 15px !important;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.tenor button,.bass button,  .valve button{
+    margin-top: 8%  !important;
+    margin-left: 37% !important;
+	outline:none !important;
+	width: 100px !important;
+	height: 40px !important;   
+    background-color:antiquewhite !important;
+	color:black !important;
+	font-size:15px !important;
+	border:1px solid black !important;
+}
+    /*-------------------resposive footer---------------------------*/
+    
+#footer {
+        background-color: #DDDDDD;
+        padding: 20px;
+        width: 800px;
+        margin: 0 auto;
+        font-family: 'Josefin Sans', sans-serif;
+} 
+}
